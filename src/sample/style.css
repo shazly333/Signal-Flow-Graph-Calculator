@@ -1,0 +1,138 @@
+.background {
+    -fx-background-color: #f3f2e1;
+}
+
+.left-menu {
+    -fx-background-color: #dad9c8;
+}
+
+.input-fill {
+    -fx-text-fill: #5b8ee4;
+}
+
+.btn {
+    -fx-background-color: #5792c3;
+    -fx-background-radius: 3px;
+    -fx-effect: dropshadow(three-pass-box, #13393c, 5, 0, 0, 2);
+    -fx-text-fill: #b4e2e4;
+}
+
+.btn:hover {
+    -fx-background-color: #37aaaf;
+}
+
+.combo-box {
+    -fx-font-family: "Britannic Bold";
+    -fx-font-size: 18;
+}
+
+.combo-box .arrow-button{
+    -fx-background-color: #5792c3;
+    -fx-background-radius: 0;
+}
+
+.combo-box:hover .arrow-button{
+    -fx-background-color: #37aaaf;
+}
+
+.combo-box .arrow{
+     -fx-background-color: #b4e2e4;
+ }
+
+.node {
+    -fx-background-color: blue;
+    -fx-border-color: #5792c3;
+}
+
+.node-txt {
+    -fx-font-family: "Britannic Bold";
+    -fx-font-size: 20;
+}
+
+.gain-txt {
+    -fx-font-weight: bolder;
+    -fx-font-style: normal;
+    -fx-text-fill: #0DA671;
+    -fx-background-color: #f3f2e1; /*same as vbox*/
+    -fx-font-size: 20;
+}
+
+.transparent {
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0;
+}
+
+.tab-label {
+    -fx-font-family: "Britannic Bold";
+    -fx-font-size: 16;
+    -fx-text-fill: #b4e2e4;
+}
+
+.tab-pane .tab
+{
+    -fx-alignment: CENTER;
+    -fx-background-color: #5792c3;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0, 0 5 0 0, 1 6 0 0 ;
+    -fx-border-width:.2;
+    -fx-border-color: #78776f;
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color:transparent;
+}
+
+.tab-pane .tab:selected
+{
+    -fx-background-color: #b4e2e4;
+}
+
+.tab:selected .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: #5792c3;
+}
+
+.tab-pane:top *.tab-header-area {
+    -fx-background-insets: 0, 0 0 1 0;
+    /* -fx-padding: 0.416667em 0.166667em 0.0em 0.833em; /* 5 2 0 10 */
+    -fx-padding: 0 0.166667em 0.0em 0.0em; /* overridden as 5 2 0 0 */
+}
+
+.tab-down-button {
+    -fx-padding: 0;
+}
+
+.tab-down-button .arrow {
+    -fx-padding: 0;
+}
+
+/* paths and gain styling */
+.path-block {
+    -fx-border-radius: 5;
+    -fx-border-width: 2;
+    -fx-border-color: #5792c3;
+    -fx-padding: 5 5 5 5;
+}
+
+.path-node-container {
+    -fx-padding: 0 2 0 2;
+    -fx-spacing: 10;
+}
+
+.path-name-lbl {
+    -fx-font-family: "Britannic Bold";
+    -fx-font-size: 16;
+    -fx-text-fill: #0DA671;
+}
+
+.path-node {
+    -fx-pref-width: 30;
+    -fx-padding: 0 4 0 4;
+    -fx-font-family: "Britannic Bold";
+    -fx-font-size: 16;
+    -fx-text-fill: #71a7c3;
+}
+
